@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IeSpeech</title>
+
+    <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" id="navcolor">
+      <a class="navbar-left" href=""> <img src="../images/brand.png"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="ourMission.html">Our Mission<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="milestones.html">Milestones</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="ourTherapist.html">Our Therapist</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="insurance.html">Insurance</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="referrals.html">Referrals</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="careers.html"> Careers</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contactUs.html">Contact Us</a>
+              </li>
+          </ul>
+          <span><i class="fa fa-phone" aria-hidden="true"></i><a class="my-2 my-lg-0" href="tel:405-606-5768">  406-606-5768</a></span>
+      </div>
+  </nav>
+
+  <body>
+    <%= yield %>
+  </body>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small unique-color-dark pt-0 fixed-bottom">
+
+      <!--Footer Links-->
+      <div class="container mt-5 mb-9 text-center text-md-left">
+          <div class="row mt-3">
+
+              <!--First column-->
+              <div class="col-md-3 col-lg-4 col-xl-5 mb-4">
+                  <h6 class="text-uppercase font-weight-bold"><strong>Innovative Expressions</strong></h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p>Innovative Expressions is a therapy company that provides speech and occupational therapy services to children and adults with disabilities. We strive to empower our clients to optimize their communication, motor skills, daily living skills, mealtime habits and social skills with family, friends, and the community for an increased sense of well-being and quality of life.</p>
+              </div>
+              <!--/.First column-->
+
+              <!--Second column-->
+              <!-- <div class="col-md-2 col-lg-2 col-xl-1 mx-auto mb-1">
+                  <h6 class="text-uppercase font-weight-bold"><strong>Navigation</strong></h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p><a href="ourMission.html">Mission</a></p>
+                  <p><a href="milestones.html">Milestones</a></p>
+                  <p><a href="ourTherapist.html">Therapist</a></p>
+                  <p><a href="insurance.html">Insurance</a></p>
+                  <p><a href="referrals.html">Referrals</a></p>
+                  <p><a href="careers.html">Careers</a></p>
+              </div> -->
+              <!--/.Second column-->
+
+              <!--Third column-->
+             <!--  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="text-uppercase font-weight-bold"><strong>Useful links</strong></h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p><a href="#!">Your Account</a></p>
+                  <p><a href="#!">Become an Affiliate</a></p>
+                  <p><a href="#!">Shipping Rates</a></p>
+                  <p><a href="#!">Help</a></p>
+              </div> -->
+              <!--/.Third column-->
+
+              <!--Fourth column-->
+              <div class="col-md-4 col-lg-3 col-xl-3">
+                  <h6 class="text-uppercase font-weight-bold"><strong>Contact</strong></h6>
+                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p><i class="fa fa-home mr-3"></i>1712 S. Boulevard Edmond, OK 73013</p>
+                  <p><i class="fa fa-envelope mr-3"></i> <a href="mailto:ietherapy@yahoo.com">ietherapy@yahoo.com</a></p>
+                  <p><i class="fa fa-phone mr-3"></i> <a href="tel:405-606-5768">(405) 606-5768</a></p>
+                  <p><a class="fb-ic ml-0" href="https://www.facebook.com/Innovative-Expressions-PLLC-302762167597/" target="_blank"><i class="fa fa-facebook white-text mr-lg-4"></i></a></p>
+              </div>
+              <!--/.Fourth column-->
+
+          </div>
+      </div>
+      <!--/.Footer Links-->
+
+      <!-- Copyright-->
+      <div class="footer-copyright py-3 text-center" id="copyright">
+          <div class="container-fluid">
+              &copy; 2018 Copyright <a href="http://www.iespeechtherapy.com/"><strong> Innovative Expressions</strong></a>
+          </div>
+      </div>
+      <!--/.Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+</html>
