@@ -7,13 +7,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
 <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light" id="navcolor">
-      <a class="navbar-left" href=""> <img src="../images/brand.png"> </a>
+      <a class="navbar-left" href=""> <%= image_tag("logo/brand.png") %> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,58 +54,39 @@
 
   <body>
     <%= yield %>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    </body>
   </body>
 
   <!-- Footer -->
-  <footer class="page-footer font-small unique-color-dark pt-0 fixed-bottom">
-
+  <footer class="page-footer font-small unique-color-dark pt-0 ">
       <!--Footer Links-->
       <div class="container mt-5 mb-9 text-center text-md-left">
           <div class="row mt-3">
-
-              <!--First column-->
+              <!-- Column 1 -->
               <div class="col-md-3 col-lg-4 col-xl-5 mb-4">
-                  <h6 class="text-uppercase font-weight-bold"><strong>Innovative Expressions</strong></h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>Innovative Expressions is a therapy company that provides speech and occupational therapy services to children and adults with disabilities. We strive to empower our clients to optimize their communication, motor skills, daily living skills, mealtime habits and social skills with family, friends, and the community for an increased sense of well-being and quality of life.</p>
+                <h6 class="text-uppercase font-weight-bold"><strong>Innovative Expressions</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>Innovative Expressions is a therapy company that provides speech and occupational therapy services to children and adults with disabilities. We strive to empower our clients to optimize their communication, motor skills, daily living skills, mealtime habits and social skills with family, friends, and the community for an increased sense of well-being and quality of life.</p>
               </div>
-              <!--/.First column-->
+              <!--/ Column 1 -->
 
-              <!--Second column-->
-              <!-- <div class="col-md-2 col-lg-2 col-xl-1 mx-auto mb-1">
-                  <h6 class="text-uppercase font-weight-bold"><strong>Navigation</strong></h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p><a href="ourMission.html">Mission</a></p>
-                  <p><a href="milestones.html">Milestones</a></p>
-                  <p><a href="ourTherapist.html">Therapist</a></p>
-                  <p><a href="insurance.html">Insurance</a></p>
-                  <p><a href="referrals.html">Referrals</a></p>
-                  <p><a href="careers.html">Careers</a></p>
-              </div> -->
-              <!--/.Second column-->
-
-              <!--Third column-->
-             <!--  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase font-weight-bold"><strong>Useful links</strong></h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p><a href="#!">Your Account</a></p>
-                  <p><a href="#!">Become an Affiliate</a></p>
-                  <p><a href="#!">Shipping Rates</a></p>
-                  <p><a href="#!">Help</a></p>
-              </div> -->
-              <!--/.Third column-->
-
-              <!--Fourth column-->
+              <!-- column 2-->
               <div class="col-md-4 col-lg-3 col-xl-3">
-                  <h6 class="text-uppercase font-weight-bold"><strong>Contact</strong></h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p><i class="fa fa-home mr-3"></i>1712 S. Boulevard Edmond, OK 73013</p>
-                  <p><i class="fa fa-envelope mr-3"></i> <a href="mailto:ietherapy@yahoo.com">ietherapy@yahoo.com</a></p>
-                  <p><i class="fa fa-phone mr-3"></i> <a href="tel:405-606-5768">(405) 606-5768</a></p>
-                  <p><a class="fb-ic ml-0" href="https://www.facebook.com/Innovative-Expressions-PLLC-302762167597/" target="_blank"><i class="fa fa-facebook white-text mr-lg-4"></i></a></p>
+                <h6 class="text-uppercase font-weight-bold"><strong>Contact</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p><i class="fa fa-home mr-3"></i>1712 S. Boulevard Edmond, OK 73013</p>
+                <p><i class="fa fa-envelope mr-3"></i> <a href="mailto:ietherapy@yahoo.com">ietherapy@yahoo.com</a></p>
+                <p><i class="fa fa-phone mr-3"></i> <a href="tel:405-606-5768">(405) 606-5768</a></p>
+                <p><a class="fb-ic ml-0" href="https://www.facebook.com/Innovative-Expressions-PLLC-302762167597/" target="_blank"><i class="fa fa-facebook white-text mr-lg-4"></i></a></p>
               </div>
-              <!--/.Fourth column-->
-
+              <!--/ Column 2-->
           </div>
       </div>
       <!--/.Footer Links-->
@@ -111,9 +98,7 @@
           </div>
       </div>
       <!--/.Copyright -->
-
   </footer>
   <!-- Footer -->
-
 
 </html>
