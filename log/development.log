@@ -1388,3 +1388,66 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 1028ms (Views: 560.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-29 21:13:27 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (294.9ms)
+Completed 200 OK in 569ms (Views: 357.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 21:14:36 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 25.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 21:21:50 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 29.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 21:22:07 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 30ms (Views: 26.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 21:34:40 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 54ms (Views: 51.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 22:04:17 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 75ms (Views: 67.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 22:04:21 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 100ms (Views: 98.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 22:08:23 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 49ms (Views: 46.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 22:08:43 -0500
+Processing by IndexController#index as HTML
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 43ms (Views: 40.8ms)
+
+
