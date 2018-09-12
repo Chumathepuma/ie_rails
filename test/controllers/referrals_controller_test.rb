@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class MissionControllerTest < ActionDispatch::IntegrationTest
+class ReferralsControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get mission_index_url
+    get referrals_index_url
     assert_response :success
   end
 
