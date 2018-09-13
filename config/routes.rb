@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'insurance/index'
+
   get 'contact/index'
 
   get 'careers/index'

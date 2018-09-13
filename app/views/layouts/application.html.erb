@@ -18,39 +18,7 @@
   </head>
 
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light" id="navcolor">
-      <a class="navbar-left" href=""> <%= image_tag("logo/brand.png") %> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="ourMission.html">Our Mission<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="milestones.html">Milestones</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="ourTherapist.html">Our Therapist</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="insurance.html">Insurance</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="referrals.html">Referrals</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="careers.html"> Careers</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="contactUs.html">Contact Us</a>
-              </li>
-          </ul>
-          <span><i class="fa fa-phone" aria-hidden="true"></i><a class="my-2 my-lg-0" href="tel:405-606-5768">  406-606-5768</a></span>
-      </div>
-  </nav>
+<%= render "partials/navbar" %>
 
   <body>
     <%= yield %>

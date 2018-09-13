@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light" id="navcolor">
+    <a class="navbar-left" href=""> <%= image_tag("logo/brand.png") %> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <%= link_to "Our Mission", {controller: "mission", action: "index"}, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Milestones", {controller: "milestones", action: "index"}, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+
+                <%= link_to "Our Therapist", {controller: "therapist", action: "index"}, class: "nav-link" %>
+
+            </li>
+            <li class="nav-item">
+                <%= link_to "insurance", {controller: "insurance", action: "index"}, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Referrals", {controller: "referrals", action: "index"}, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Careers", {controller: "careers", action: "index"}, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Contact Us", {controller: "contact", action: "index"}, class: "nav-link" %>
+            </li>
+        </ul>
+        <span><i class="fa fa-phone" aria-hidden="true"></i><a class="my-2 my-lg-0" href="tel:405-606-5768">  406-606-5768</a></span>
+    </div>
+</nav>
